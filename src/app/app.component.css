@@ -1,0 +1,138 @@
+#city{
+   border-radius: 8px;
+   outline: none;
+   border:none;
+    /* border: 1px solid #6c5db0; */
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #8279ad;
+
+}
+
+/* #city:focus{
+    border: 1px solid #3812e3;
+} */
+
+#city::placeholder{
+    color: #8279ad;
+}
+
+/* #city:focus::placeholder{
+    color: #3812e3;
+} */
+
+/* #city:hover{
+    border: 1px solid #3812e3;
+} */
+/* 
+#city:hover::placeholder{
+    color: #3812e3;
+} */
+
+/* #city:active{
+    border: 1px solid #3812e3;
+} */
+
+
+button{
+    border-radius: 8px;
+    outline: none;
+    border:none;
+    /* border: 1px solid #6c5db0; */
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #fafafa;
+    margin-top:20px;
+    background-color: rgb(103, 113, 189);
+
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.weather-card{
+    margin-top:20px;
+    width: 100%;
+    height:400px;
+    background-color:rgb(103, 113, 189);
+    /* background-color: pink; */
+    box-shadow: rgba(67, 67, 172, 0.2) 0px 7px 29px 0px;
+    border-radius:8px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.weather-temp{
+    /* height: 50%; */
+    height: 50%;
+    border-radius:8px;
+    border:none;
+    /* background-color:yellow; */
+    position: relative;
+    /* background-image: url(winter.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; */
+    /* filter: brightness(50%); */
+    /* filter: grayscale(50%); */
+    /* filter: blur(1px); */
+    /* filter: opacity(1); */
+    /* background-size: cover; */
+    cursor:pointer;
+        color: #ffffff;
+        /* display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+}
+
+.weather-temp img{
+   border-radius: 8px;
+   width: 100%;
+   height: 100%;
+   filter: brightness(50%);
+}
+.weather-temp h3{
+    position:absolute;
+    top: 20%;
+    left:38%;
+}
+.weather-temp h1{
+    position:absolute;
+    top: 33%;
+    left:18%;
+}
+
+.weather-info{
+    /* height:auto; */
+    margin-top:5px;
+    color:white;
+    /* background-color:blue; */
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+}
+
+.weather-information-card{
+    margin-top:15px;
+    /* background-color:yellow; */
+    /* width: 100%;
+    height: 50%; */
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+    /* background-color: red; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    flex-direction: column;
+
+
+}
+
+/* .weather-temp img {
+    content: url("winter.jpeg"); */
+    /* width: 20rem;
+    height: 10rem;
+    padding: 10rem 0 0 0; */
+/* } */
